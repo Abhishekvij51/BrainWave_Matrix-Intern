@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revamp Motors</title>
+    <link rel="icon" type="image/png" href="rv1.jpg">
+    <link rel="stylesheet" href="automotive2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>Revamp</span>Motors</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#services">Services</a>
+        <a href="#featured">Featured</a>
+        <a href="#reviews">Review</a>
+        <a href="#contact">Contact  Us</a>
+    </nav>
+    <div id="login-btn">
+        <button class="btn">Login</button>
+        <i class="far fa-user"></i>
+    </div>
+</header>
+<!-- Header Section Ends -->
+
+<!-- Login Form -->
+<div class="login-form-container" id="loginForm">
+    <span class="fas fa-times" id="close-login-form"></span>
+    <form action="">
+        <h3>User Login</h3>
+        <input type="email" placeholder="Email" class="box" required>
+        <input type="password" placeholder="Password" class="box" required>
+        <p>Forgot Your Password? <a href="#">Click here</a></p>
+        <input type="submit" value="Login Now" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn">Google</a>
+            <a href="#" class="btn">Facebook</a>
+        </div>
+        <p>Don't have an account? <a href="#">Create one</a></p>
+    </form>
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <h1 class="home-parallax" data-speed="-2">Find your car</h1>
+    <img class="home-parallax" data-speed="5" src="home.webp" alt="">
+    <a href="#" class="btn home-parallax" data-speed="7"> Explore Cars </a>
+
+
+</section>
+
+
+
+ <!-- home section ends -->
+
+ <!-- icons section starts -->
+<section class="icons-container">
+<div class="icons">
+    <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>150+</h3>
+            <p>Branches</p>
+        </div>
+    
+</div>
+<div class="icons">
+    <i class="fas fa-car">  </i>
+        <div class="content">
+            <h3>8990+</h3>
+            <p>Cars Sold</p>
+        </div>
+  
+</div>
+
+<div class="icons">
+    <i class="fas fa-users">  </i>
+        <div class="content">
+            <h3>5000+</h3>
+            <p>Happy Clients</p>
+        </div>
+  
+</div>
+<div class="icons">
+    <i class="fas fa-car">  </i>
+        <div class="content">
+            <h3>560+</h3>
+            <p>New Cars </p>
+        </div>
+  
+</div>
+</section>
+
+ <!-- icons section ends -->
+
+ <!-- Vehicles section starts -->
+  <section class="vehicles" id="vehicles">
+    <h1 class="heading">Popular <span>Vehicles</span></h1>
+
+    <div class=" swiper vehicles-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="city.webp" alt="">
+                <div class="content">
+                    <h3>Honda City</h3>
+                    <div class="price"> <span> Price: </span>Rs. 9,50,000/-</div>
+                    <p>
+                         New
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Automatic(CVT)
+                        <span class="fas fa-circle"></span> Petrol
+                        <span class="fas fa-circle"></span> 220kmph
+                        <span class="fas fa-circle"></span>
+                    </p>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+            </div>
+        
+
+    <div class="swiper-slide box">
+        <img src="breeza.webp" alt="">
+        <div class="content">
+            <h3>Maruti Suzuki Breeza</h3>
+            <div class="price"> <span> Price: </span>Rs. 10,50,000/-</div>
+            <p>
+                 New
+                <span class="fas fa-circle"></span> 2023
+                <span class="fas fa-circle"></span> Manual
+                <span class="fas fa-circle"></span> Petrol
+                <span class="fas fa-circle"></span> 240kmph
+                <span class="fas fa-circle"></span>
+            </p>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="swift.webp" alt="">
+        <div class="content">
+            <h3>Maruti Suzuki Swift</h3>
+            <div class="price"> <span> Price: </span>Rs. 5,50,000/-</div>
+            <p>
+                 New
+                <span class="fas fa-circle"></span> 2020
+                <span class="fas fa-circle"></span> Automatic
+                <span class="fas fa-circle"></span> Petrol
+                <span class="fas fa-circle"></span> 220kmph
+                <span class="fas fa-circle"></span>
+            </p>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="baleno.webp" alt="">
+        <div class="content">
+            <h3>Maruti Suzuki Baleno</h3>
+            <div class="price"> <span> Price: </span>Rs. 8,50,000/-</div>
+            <p>
+                 New
+                <span class="fas fa-circle"></span> 2023
+                <span class="fas fa-circle"></span> Automatic(CVT)
+                <span class="fas fa-circle"></span> Petrol
+                <span class="fas fa-circle"></span> 220kmph
+                <span class="fas fa-circle"></span>
+            </p>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="nexon.jpg" alt="">
+        <div class="content">
+            <h3>Tata Nexon</h3>
+            <div class="price"> <span> Price: </span>Rs. 6,50,000/-</div>
+            <p>
+                 New
+                <span class="fas fa-circle"></span> 2022
+                <span class="fas fa-circle"></span> Manual
+                <span class="fas fa-circle"></span> Diesel
+                <span class="fas fa-circle"></span> 200kmph
+                <span class="fas fa-circle"></span>
+            </p>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="alto800.webp" alt="">
+        <div class="content">
+            <h3>Maruti Suzuki Alto 800</h3>
+            <div class="price"> <span> Price: </span>Rs. 2,50,000/-</div>
+            <p>
+                 New
+                <span class="fas fa-circle"></span> 2020
+                <span class="fas fa-circle"></span> Manual
+                <span class="fas fa-circle"></span> Petrol
+                <span class="fas fa-circle"></span> 180kmph
+                <span class="fas fa-circle"></span>
+            </p>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="alcazar.webp" alt="">
+        <div class="content">
+            <h3>Hyundai Alcazar</h3>
+            <div class="price"> <span> Price: </span>Rs. 16,50,000/-</div>
+            <p>
+                 New
+                <span class="fas fa-circle"></span> 2021
+                <span class="fas fa-circle"></span> Automatic(CVT)
+                <span class="fas fa-circle"></span> Diesel
+                <span class="fas fa-circle"></span> 260kmph
+                <span class="fas fa-circle"></span>
+            </p>
+            <a href="#" class="btn">Check Out</a>
+        </div>
+    </div>
+
+</div>
+<div class="swiper-pagination"></div>
+</div>
+  </section>
+   <!-- Vehicles section ends-->
+
+   <!-- service section starts -->
+
+   <section class="services" id="services">
+    <h1 class="heading">our <span>services</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>Car Selling</h3>
+            <p>We offers highly effecient and very professional works on your automotive vehicles by our highly skilled workers.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>Parts Repair</h3>
+            <p>Our highly skilled workers will help to repair all the faults related to you old or new vehicles with all the types of obd scanners as well as new computerised tools.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-crash"></i>
+            <h3>Car Insurance</h3>
+            <p>We also offers all type of insurances for two wheelers as well as four wheelers whether it is third party or first party or zero depreciation policy.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-battery"></i>
+            <h3>Battery Replacement</h3>
+            <p>We also offers batteries for all kinds of vehicles of diffrent sizes as well as of different comapnies like amaron,exide,etc.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gas-pump"></i>
+            <h3>Engine Oil Change</h3>
+            <p>Oil change like basic service is easily available at our workshop and also different types of mobils are also available in our workshop.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>We also offers 24/7 support on our numbers to all the customers for easy and quick resolution to all our valuable customers.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+    </div>
+   </section>
+
+    <!-- service section ends -->
+
+    <!-- featured section starts -->
+     <section class=" featured" id="featured">
+        <h1 class="heading"> <span>Featured</span>Cars</h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="fortuner.webp" alt="">
+                    <h3>Fortuner 2023 Model CVT 4*4</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs 45,00,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="scorpio.jpg" alt="">
+                    <h3>Scorpio 2022 Model Manual 4*2</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-alt"></i>
+                    </div>
+                    <div class="price">Rs 16,00,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="thar.webp" alt="">
+                    <h3>Mahindra Thar LX Hard Top 4*4</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs 14,50,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="xl6.jpg" alt="">
+                    <h3>Maruti Suzuki XL6 Zeta 2023</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">Rs 11,50,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-pagination"></div>            
+        </div>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="ignis.jpg" alt="">
+                    <h3>Ignis 2021 alpha manual vvt petrol with 1200cc engine </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">Rs 6,00,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="m340i.webp" alt="">
+                    <h3>BMW M340i 2022 Top model with most powerful engine </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-alt"></i>
+                    </div>
+                    <div class="price">Rs 66,00,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="innova.webp" alt="">
+                    <h3>Toyota Innova Crysta 4*4 manual Diesel</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">Rs 21,50,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="hilux.jpg" alt="">
+                    <h3>Toyota Hilux 2024 model 4*4 with diesel engine</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">Rs 37,50,000/-</div>
+                    <a href="#" class="btn">Check Out</a>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-pagination"></div>            
+        </div>
+
+     </section>
+      <!-- featured section ends -->
+
+      <!-- newsletter section starts -->
+    <div class="newsletter">
+
+            <h3>Subscribe for latest updates</h3>
+            <p> You will be updated with new features and cars from our website. </p>
+            <form action="">
+                <input type="email" placeholder="enter your email" name=""  id="">
+                <input type="submit"  class="subscribe" name="" id="">
+            </form>
+
+    </div>
+
+         <!-- newsletter section ends -->
+
+
+         <!-- review section starts -->
+
+         <section class="reviews" id="reviews">
+        
+            <h1 class="heading">Client's <span>Reviews</span></h1>
+
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class=" swiper-slide box">
+                        <img src="Pic1.jpg" alt="">
+                        <div class="content">
+                            <p> "Revamp Motors electric cars and other cars are sleek and efficient. Great design and smooth ride make commuting fun and eco-friendly."</p>
+                            <h3>Ramesh Sharma</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                            <div class="swiper-slide box">
+                                <img src="Pic2.jpg" alt="">
+                                <div class="content">
+                                    <p> "Performance is decent for short trips, but quality control could be tighter. Occasional glitches need addressing for a smoother experience."</p>
+                                    <h3>Suresh Sharma</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                         </div>
+                         <div class="swiper-slide box">
+                            <img src="Pic3.webp" alt="">
+                            <div class="content">
+                                <p> "Great value for money! Revamp cars are stylish, environmentally friendly, and perfect for urban travel. Highly recommended."</p>
+                                <h3>Rekha Sharma</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                     </div>
+
+                     <div class="swiper-slide box">
+                        <img src="Pic4.webp" alt="">
+                        <div class="content">
+                            <p> "Stylish, efficient, and packed with advanced features. Revamp Motors’ cars are a fantastic choice for those going green without compromise."</p>
+                            <h3>Dhruv Mahajan </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                 </div>
+
+                 <div class="swiper-slide box">
+                    <img src="Pic5.jpg" alt="">
+                    <div class="content">
+                        <p> ""Love the innovation in Revamp cars! Great handling, futuristic interiors, and eco-friendly driving make them stand out on the road."</p>
+                        <h3>Pradyuman Thakur</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+             </div>
+
+             <div class="swiper-slide box">
+                <img src="Pic6.jpg" alt="">
+                <div class="content">
+                    <p> "Exceptional build quality and low maintenance. Revamp Motors delivers on style and sustainability, making every drive a pleasure."</p>
+                    <h3>Anil Vij</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+         </div>
+
+         <div class="swiper-slide box">
+            <img src="Pic7.jpg" alt="">
+            <div class="content">
+                <p> "Amazing driving experience! Revamp Motors’ cars are sleek, reliable, and provide a smooth, quiet ride with impressive acceleration."</p>
+                <h3>Mukesh Thakur</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+     </div>
+
+     <div class="swiper-slide box">
+        <img src="Pic8.jpg" alt="">
+        <div class="content">
+            <p>  "Had high hopes, but frequent charging and inconsistent performance were disappointing. Customer service needs improvement."</p>
+            <h3>Rajender Sharma</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+ </div>
+                  </div>
+                
+            <div class="swiper-pagination"></div>
+
+            </div>
+        
+        </section>
+
+           <!-- review section ends -->
+
+
+
+           <!-- /* contact section starts */ -->
+
+    
+<h1 class="heading"><span>Contact</span> Us</h1>
+
+<section class="contact" id="contact">
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109348.12601967058!2d77.0766185237425!3d31.07834023313481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390578e3e35d6e67%3A0x1f7e7ff6ff9f54b7!2sShimla%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1727116371212!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>Get in Touch</h3>
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="number" class="box">
+            <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    
+    </div>
+
+</section>
+
+
+   <!-- /* contact section ends */ -->
+
+
+   <!-- footer section starts -->
+
+      <section class="footer">
+        <div class="box-container">
+            <div class="box">
+            <h3>Our Branches</h3>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Delhi</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Mumbai</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Shimla</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Pathankot</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Chandigarh</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Jalandhar</a>
+        </div>
+    
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> Home</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Vehicles</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Services</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Featured</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Reviews</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> Contact Us</a>
+             
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#"><i class="fas fa-phone"></i> 1800-564-4330</a>
+                <a href="#"><i class="fas fa-phone"></i> 1800-564-5230</a>
+                <a href="#"><i class="fas fa-envelope"></i> Revampmotors51@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Shimla, Himachal Pradesh, India - 171001 </a>
+
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                
+
+            </div>
+
+        </div>
+
+      
+
+      <div class="credit">Developed and maintained by Abhishek Vij || &copy; All Rights Reserved.  </div>
+
+    </section>
+
+      <!-- footer section ends -->
+
+
+            
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Custom Javascript Link -->
+<script src="automotive2.js"></script>
+</body>
+</html>
